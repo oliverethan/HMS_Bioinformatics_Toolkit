@@ -1,5 +1,5 @@
 # Bioinformatics Toolkit (WIP)
-## Created during a summer internship at the Park Lab in the Department of Biomedical Informatics (DBMI) at Harvard Medical School
+## Created during a summer internship at the [Park Lab](https://compbio.hms.harvard.edu/index) in the Department of Biomedical Informatics (DBMI) at Harvard Medical School
 
 Summer 2019
 
@@ -29,10 +29,10 @@ PYTHON -> SLURM -> GATK -> MUTECT2
 
 
 ### [AWS scripts](aws_tibanna_scripts/)
-Scripts to run Mutect2 on AWS EC2 instances using the Tibanna framework and Docker images. Easily customizable and can run Mutect2 in multiple ways. Used to create a Panel of Normals of 1000 WES patients for use in the lab. Also features scripts to programmatically download large amounts of files from the [Genomics Data Commons](https://gdc.cancer.gov/) into AWS.
+Scripts to run Mutect2 on AWS EC2 instances using the Tibanna framework and Docker images. Easily customizable and can run Mutect2 in multiple ways. Used to create a Panel of Normals of 1000 WES patients for use in the lab. Also features scripts to programmatically download large amounts of files from the [Genomics Data Commons](https://gdc.cancer.gov/) into AWS. There is a script to run MosaicForecast as well.
 
 ### [Sequenza](Sequenza_runner/)
-These scripts aid in running Sequenza through slurm. Generate WIGGLE file and run Sequenza. Also features an R script to run further analysis on the Sequenza output.
+These scripts aid in running [Sequenza](http://www.cbs.dtu.dk/biotools/sequenza/) through slurm. Generate WIGGLE file and run Sequenza. Also features an R script to run further analysis on the Sequenza output.
 
 ### [SigMA](SigMA/)
 R script pipeline that goes from VCFs to SigMA output. R scripts to create plots of various types based on SigMA output
