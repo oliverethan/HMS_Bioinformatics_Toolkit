@@ -23,7 +23,7 @@ def parse_args():
     parser.add_argument('-p', '--queue', default='priopark', help='slurm job submission option')
     parser.add_argument('--mem_per_cpu', default='20G', help='slurm job submission option')
     parser.add_argument('--mail_type', default='FAIL', help='slurm job submission option')
-    parser.add_argument('--mail_user', default='ethan.oliver@tufts.edu', help='slurm job submission option')
+    parser.add_argument('--mail_user', default='<EMAIL>', help='slurm job submission option')
     parser.add_argument('-gatk', '--gatk_path', default='/n/data1/hms/dbmi/park/alon/software/gatk/GenomeAnalysisTK-3.8-0-ge9d806836/GenomeAnalysisTK.jar', help='path to software')
     parser.add_argument('-gatk4', '--gatk4_path', default='/n/data1/hms/dbmi/park/alon/software/gatk/gatk-4.0.3.0/gatk', help='path to software')
     parser.add_argument('-reference', '--reference_path', default='/n/data1/hms/dbmi/park/jake/Resources/03_pcawg_ref/genome.fa', help='path to reference_path file')
