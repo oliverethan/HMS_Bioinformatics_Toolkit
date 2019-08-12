@@ -14,7 +14,7 @@ source('R/plot_tribase_dist.R')
 
 args = commandArgs(trailingOnly=TRUE)
 if (length(args)==0) {
-  stop("At least two argument must be supplied  Full input, Lite input", call.=FALSE)
+        stop("At least two argument must be supplied  Full input, Lite input", call.=FALSE)
 }
 
 

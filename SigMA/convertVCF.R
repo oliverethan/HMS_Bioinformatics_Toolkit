@@ -13,7 +13,7 @@ devtools::load_all()
 args = commandArgs(trailingOnly=TRUE)
 
 if (length(args) < 2) {
-  stop("At least two argument must be supplied: Input directory, Output file name", call.=FALSE)
+        stop("At least two argument must be supplied: Input directory, Output file name", call.=FALSE)
 }
 
 print("make_matrix")
