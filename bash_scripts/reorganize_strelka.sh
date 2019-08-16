@@ -2,6 +2,9 @@
 # ETHAN OLIVER
 
 
+path=$(pwd)
+
+
 for d in  .[^.]*; do
     echo $d
     IFS='.'
@@ -10,13 +13,12 @@ for d in  .[^.]*; do
     IFS=' '
 
     cd "$d/.sh/results/variants"
-    pwd
     for e in *.gz; do
         echo $e
         echo "Name: $fnamer"
         new_name="$fnamer.$e"
         echo $new_name
-        cp $e "/n/data1/hms/dbmi/park/jake/Chromoplexy/05_Breast_Jones/02_Strelka2/$new_name"
+        cp $e "$path/$new_name"
     done
 
     cd ../../../../
