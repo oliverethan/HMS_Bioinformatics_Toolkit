@@ -3,7 +3,7 @@
 
 Summer 2019
 
-Various tools and scripts to help prep and analyze genomics data for research purposes. Some of the scripts have not been fully tested and may require slight modification to function correctly in your workspace.
+Various helper tools and scripts to help prep and analyze genomics data for research purposes. Some of the scripts have not been fully tested and may require slight modification to function correctly in your workspace. Mainly used to speed up work and research contains no confidential logic or information.
 
 ## Languages
 * Python
